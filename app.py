@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-import nltk
+import nltk=3.6.2
 nltk.download('wordnet')
 nltk.download('punkt')
 nltk.download('stopwords')
