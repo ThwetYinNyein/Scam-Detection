@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import nltk
+nltk.download('wordnet')
 nltk.download('punkt')
 nltk.download('stopwords')
 import streamlit as st
