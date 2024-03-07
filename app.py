@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-import nltk=3.6.2
+import nltk
 nltk.download('wordnet')
 nltk.download('punkt')
 nltk.download('stopwords')
@@ -39,7 +39,7 @@ model=pickle.load(open('model.pkl','rb'))
 
 st.title("Email/SMS Spam Detection")
 #st.image("")
-image = Image.open('C:/Users/DELL/anaconda3/envs/project/streamlit_image.jpg')
+image = Image.open('banner.jpg')
 st.image(image,width=400)
 st.caption('Image credit')
 st.text('URL: https://securelist.com/spam-and-phishing-in-2021/105713/')
